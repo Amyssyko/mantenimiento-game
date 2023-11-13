@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál cree que es el mejor medio de protección de una PC contra las variaciones de la energía eléctrica Cuando hay tormenta eléctrica?",
+    "answers": [
+      { "id": 1, "answer": "Alejarlo de la humedad", "correct": false },
+      {
+        "id": 2,
+        "answer": "No encenderlo mientras pasa la tormenta",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Tener un acondicionador de voltaje",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "answer": "Tener una conexión con pozo a tierra",
+        "correct": true
+      }
+    ],
+    "correctAnswer": 4
+  },
+
+  {
+    "id": 2,
+    "question": "¿Cuál es la principal causa por la cual una PC se congela al arrancar?",
+    "answers": [
+      { "id": 1, "answer": "Fallas en el sistema operativo", "correct": false },
+      { "id": 2, "answer": "Fallas en el disco duro", "correct": false },
+      { "id": 3, "answer": "La memoria RAM", "correct": true },
+      { "id": 4, "answer": "Mala conexión a Internet", "correct": false }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál cree que es la señal principal de que un disco duro se está deteriorando?",
+    "answers": [
+      { "id": 1, "answer": "Windows se bloquea seguido", "correct": false },
+      {
+        "id": 2,
+        "answer": "La conexión a Internet se cae continuamente",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Hace un ruido de tap tap y se demora en arrancar",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "answer": "El PC no arranca y la BIOS advierte que no existe un disco duro",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "question": "Repotenciar un PC consiste en:",
+    "answers": [
+      {
+        "id": 1,
+        "answer": "Instalar programas de última versión",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Cambiar la unidad óptica y el disco duro por dispositivos de más capacidad",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Cambiar el microprocesador, la RAM y el disco duro por uno de más capacidad",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "answer": "Cambiar la fuente de poder la Board y el Procesador",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 5,
+    "question": "¿Qué equipos recomendaría comprar a una institución benéfica de bajos recursos?",
+    "answers": [
+      {
+        "id": 1,
+        "answer": "PC de marca porque duran más a pesar de su elevado costo",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Clones porque pueden repararse fácilmente y son más económicos",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Da lo mismo, lo importante es que tengan un buen soporte técnico y el cuidado que se tenga",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "answer": "Portátiles ya que duran más y son económicos",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 6,
+    "question": "Saber cuidar una PC significa principalmente:",
+    "answers": [
+      { "id": 1, "answer": "Apagar adecuadamente el PC", "correct": false },
+      {
+        "id": 2,
+        "answer": "Hacerle el mantenimiento preventivo",
+        "correct": true
+      },
+      { "id": 3, "answer": "Limpiarla todos los días", "correct": false },
+      {
+        "id": 4,
+        "answer": "Evitar que intrusos ingresen sin permiso al sistema",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "No es una causa para que el PC, se ponga lento al navegar en Internet:",
+    "answers": [
+      {
+        "id": 1,
+        "answer": "PC con una tarjeta de video de baja resolución",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Mala Configuración de la conexión de red",
+        "correct": false
+      },
+      { "id": 3, "answer": "PC infectado por un virus", "correct": false },
+      { "id": 4, "answer": "Conexión a internet muy lenta", "correct": false }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "La mejor alternativa cuando un programa empieza a fallar es:",
+    "answers": [
+      { "id": 1, "answer": "Cambiar el disco duro", "correct": false },
+      { "id": 2, "answer": "Llamar a un técnico", "correct": false },
+      {
+        "id": 3,
+        "answer": "Desinstalarlo y volverlo a instalar",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "answer": "Cambiarlo por la versión más reciente",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 9,
+    "question": "Cuando se busca una mejor versión de un driver se debe tener en cuenta:",
+    "answers": [
+      { "id": 1, "answer": "El consejo de los amigos", "correct": false },
+      {
+        "id": 2,
+        "answer": "Las instrucciones del fabricante",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Descargarlo a través de Internet",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "answer": "Hacer Backup para formatear el disco duro por si algo sale mal",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 10,
+    "question": "Para evitar daños por virus:",
+    "answers": [
+      {
+        "id": 1,
+        "answer": "Utilice un antivirus pago, solo así se protegerá",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Instale un antivirus y actualícelo regularmente",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "answer": "Reinicie el PC cuando aparezca el mensaje virus detectado",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "answer": "Nunca descargue fotos, canciones y juegos en la Red",
+        "correct": false
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 11,
+    "question": "Un aparato, artificio, mecanismo, artefacto, órgano o elemento de un sistema, corresponde a:",
+    "answers": [
+      { "id": 1, "answer": "Software", "correct": false },
+      { "id": 2, "answer": "Hardware", "correct": true },
+      { "id": 3, "answer": "Malware", "correct": false },
+      { "id": 4, "answer": "Firmware", "correct": false }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 12,
+    "question": "Son componentes internos de un computador",
+    "answers": [
+      { "id": 1, "answer": "RAM, procesador y Board", "correct": true },
+      {
+        "id": 2,
+        "answer": "TrackBall, Puente Norte y Puente Sur",
+        "correct": false
+      },
+      { "id": 3, "answer": "PCI, DDR y CPU", "correct": false },
+      { "id": 4, "answer": "Display, BIOS y chipset", "correct": false }
+    ],
+    "correctAnswer": 1
+  }
+]
