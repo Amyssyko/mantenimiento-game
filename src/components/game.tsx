@@ -32,7 +32,7 @@ const Question = ({ info }: { info: QType }) => {
   return (
     <Card className=' md:w-[550px] md:h-[360px] '>
       <CardHeader>
-        <CardTitle className='leading-relaxed text-center text-xl font-bold'>
+        <CardTitle className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0 text-center '>
           {info.question}
         </CardTitle>
       </CardHeader>
@@ -63,7 +63,6 @@ const Game = () => {
   const currentQuestion = useQuestions(state => state.currentQuestion)
   const nextQuestion = useQuestions(state => state.nextQuestion)
   const prevQuestion = useQuestions(state => state.prevQuestion)
-  console.log(currentQuestion)
 
   const questionInfo = questions[currentQuestion]
 
@@ -81,7 +80,7 @@ const Game = () => {
         >
           <ArrowLeft className='h-4 w-4' />
         </Button>
-        <CardTitle className=' w-40 px-2'>{`Pregunta ${
+        <CardTitle className=' w-40 px-2 scroll-m-20 text-center text-xl font-semibold tracking-tight'>{`Pregunta ${
           currentQuestion + 1
         }`}</CardTitle>
         <Button

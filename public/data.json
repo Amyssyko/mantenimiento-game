@@ -243,5 +243,115 @@
       { "id": 4, "answer": "Display, BIOS y chipset", "correct": false }
     ],
     "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "El chip mas importante de cualquier tarjeta madre es:",
+    "answers": [
+      { "id": 1, "answer": "Chipset", "correct": false },
+      {
+        "id": 2,
+        "answer": "Jumper",
+        "correct": false
+      },
+      { "id": 3, "answer": "Procesador", "correct": true },
+      { "id": 4, "answer": "South Bridge", "correct": false }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 14,
+    "question": "La causa mas probable por la que el computador se apaga frecuentemente en ciclos de tiempo aleartorio es:",
+    "answers": [
+      { "id": 1, "answer": "Mal funcionamiento de la fuente de poder", "correct": true },
+      {
+        "id": 2,
+        "answer": "Suciedad en la tarjeta de video",
+        "correct": false
+      },
+      { "id": 3, "answer": "Recalantamiento del Procesador", "correct": false },
+      { "id": 4, "answer": "Mal funcionamiento de Firewall o el Antivirus", "correct": false }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál de las siguientes opciones es una herramienta de trabajo que nos ayuda para darle mantenimiento a una computadora?",
+    "answers": [
+      { "id": 1, "answer": "Martillo", "correct": false },
+      {
+        "id": 2,
+        "answer": "Taladro",
+        "correct": false
+      },
+      { "id": 3, "answer": "Plazas de punta fina", "correct": true },
+      { "id": 4, "answer": "Tenedor", "correct": false }
+    ],
+    "correctAnswer": 3
+  }, 
+  {
+    "id": 16,
+    "question": "Es un tipo de memoria RAM",
+    "answers": [
+      { "id": 1, "answer": "DDRAM", "correct": false },
+      {
+        "id": 2,
+        "answer": "GIGARAM",
+        "correct": false
+      },
+      { "id": 3, "answer": "EPRAM", "correct": false },
+      { "id": 4, "answer": "SDRAM", "correct": true }
+    ],
+    "correctAnswer": 4
+  }, 
+  {
+    "id": 17,
+    "question": "¿Cuáles son los tipos de mantenimientos que existen para un PC?",
+    "answers": [
+      { "id": 1, "answer": "Formativo y predictivo", "correct": false },
+      {
+        "id": 2,
+        "answer": "Preventivo y correctivo", "correct": true},
+      { "id": 3, "answer": "Predictivo y correctivo", "correct": false },
+      { "id": 4, "answer": "De hadware y software", "correct": false }
+    ],
+    "correctAnswer": 2
+  }, 
+  {
+    "id": 18,
+    "question": "Previene algún mal funcionamiento del hardware y software",
+    "answers": [
+      { "id": 1, "answer": "Everest", "correct": false },
+      {
+        "id": 2, "answer": "Ccleaner", "correct": false },
+      { "id": 3, "answer": "Mantenimiento preventivo", "correct": true },
+      { "id": 4, "answer": "TuneUp utilities", "correct": false }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "Consideración importante que se debe hacer antes y después del mantenimiento",
+    "answers": [
+      { "id": 1, "answer": "Vereficar que el equipo tenga garantia", "correct": true },
+      {
+        "id": 2, "answer": "Verificar si el computador es del dueño", "correct": false },
+      { "id": 3, "answer": "Verificar la configuración básica del Setup", "correct": false},
+      { "id": 4, "answer": "Revisar la IP del PC", "correct": false }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "Permite conocer las características del equipo:",
+    "answers": [
+      { "id": 1, "answer": "Inicio, panel de control, agregar hardware", "correct": false },
+      {
+        "id": 2, "answer": "Inicio, ayuda y soporte técnico, información de mi pc", "correct": false },
+      { "id": 3, "answer": "Clic derecho sobre mi pc, propiedades, hardware", "correct": true },
+      { "id": 4, "answer": "Inicio, panel de control, cuentas de usuarios", "correct": false }
+    ],
+    "correctAnswer": 3
   }
+  
 ]

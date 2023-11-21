@@ -20,9 +20,10 @@ const Footer = () => {
   return (
     <CardFooter className='flex flex-col justify-center items-center'>
       <Progress
-        className='bg-orange-100 placeholder-green-500'
+        className='bg-orange-100 placeholder-green-500 my-2'
         value={Number(correct + incorrect) * 10}
       />
+
       <p className='md:flex gap-4 py-8 '>
         <span className='flex gap-x-2'>
           <CheckCircle className='text-green-500' />
@@ -32,7 +33,7 @@ const Footer = () => {
           <XCircle className='text-red-500' /> {incorrect} incorrectas
         </span>
         <span className='flex gap-x-2 '>
-          <CircleDashed className='text-gray-500 animate-ping duration-1000 w-4 h-4' />{' '}
+          <CircleDashed className='text-gray-500 animate-bounce duration-1000 w-4 h-4' />{' '}
           {unanswered} Sin Responder
         </span>
       </p>

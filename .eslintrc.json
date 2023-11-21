@@ -9,7 +9,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "ignorePatterns": ["vite.config.ts"],
+  "ignorePatterns": ["vite.config.ts", "prettier.config.js"],
   "plugins": ["react"],
   "rules": {
     "@next/next/no-img-element": "off",
