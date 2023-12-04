@@ -9,6 +9,7 @@ interface Pregunta {
   description: string
   url: string
 }
+const URL_BASE = import.meta.env.VITE_URL
 
 const preguntas = [
   {
@@ -17,7 +18,7 @@ const preguntas = [
       'Juego de Preguntas de Ofimática, y Mantenimiento de Computadora y Laptop',
     description:
       'Las preguntas son referentes a la ofimática y mantenimiento de computadora y laptop, podrás evaluar tus conocimientos sobre el tema. Ademas de poder aprender mas sobre la ofimática y mantenimiento de computadora y laptop.',
-    url: 'http://localhost:5173/data.json'
+    url: `${URL_BASE}/data.json`
   },
   {
     id: 2,
@@ -25,7 +26,7 @@ const preguntas = [
       'Juego de Preguntas de Ofimática, y Mantenimiento de Computadora y Laptop',
     description:
       'Las preguntas son referentes a la ofimática y mantenimiento de computadora y laptop, podrás evaluar tus conocimientos sobre el tema. Ademas de poder aprender mas sobre la ofimática y mantenimiento de computadora y laptop.',
-    url: 'http://localhost:5173/data1.json'
+    url: `${URL_BASE}/data1.json`
   },
   {
     id: 3,
@@ -33,7 +34,7 @@ const preguntas = [
       'Juego de Preguntas de Ofimática, y Mantenimiento de Computadora y Laptop',
     description:
       'Las preguntas son referentes a la ofimática y mantenimiento de computadora y laptop, podrás evaluar tus conocimientos sobre el tema. Ademas de poder aprender mas sobre la ofimática y mantenimiento de computadora y laptop.',
-    url: 'http://localhost:5173/data2.json'
+    url: `${URL_BASE}/data2.json`
   }
 ] as Pregunta[]
 

@@ -1,4 +1,5 @@
 export const MAX_QUESTIONS = 10
+const URL_BASE = import.meta.env.VITE_URL
 
 export const URL = import.meta.env.PROD
   ? 'https://mantenimiento-game.vercel.app'
