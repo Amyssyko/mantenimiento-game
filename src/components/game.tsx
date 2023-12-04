@@ -30,20 +30,20 @@ const Question = ({ info }: { info: QType }) => {
   }
 
   return (
-    <Card className=' md:w-[550px] md:h-[500px] '>
+    <Card className=' md:w-[550px] md:h-[470px] '>
       <CardHeader>
         <CardTitle className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0 text-center '>
           {info.question}
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <ul className='list-disc '>
+        <ul className='py-2 flex flex-col gap-8'>
           {info.answers.map(({ answer, id }, index) => {
             return (
               <li
                 onClick={() => handleClick(id)}
                 key={index}
-                className={`cursor-pointer my-6 py-2 font-mono hover:bg-blue-300/80 rounded-3xl px-4   ${getBGColor(
+                className={`cursor-pointer py-1 font-mono hover:bg-blue-300/80 rounded-3xl px-4   ${getBGColor(
                   info,
                   id
                 )}`}
