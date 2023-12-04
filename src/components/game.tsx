@@ -13,7 +13,7 @@ const getBGColor = (info: QType, answerIndex: number) => {
     return 'bg-transparent'
   }
   if (answerIndex === correctAnswer) {
-    return 'bg-green-500 hover:bg-green-600 animate-pulse duration-800 transition-colors '
+    return 'bg-green-500 hover:bg-green-600 animate-bounce duration-900 transition-colors '
   }
   if (answerIndex === userSelection) {
     return 'bg-red-500 hover:bg-red-600 line-through'
@@ -30,20 +30,20 @@ const Question = ({ info }: { info: QType }) => {
   }
 
   return (
-    <Card className=' md:w-[550px] md:h-[360px] '>
+    <Card className=' md:w-[550px] md:h-[500px] '>
       <CardHeader>
         <CardTitle className='scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0 text-center '>
           {info.question}
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <ul className='list-disc'>
+        <ul className='list-disc '>
           {info.answers.map(({ answer, id }, index) => {
             return (
               <li
                 onClick={() => handleClick(id)}
                 key={index}
-                className={`cursor-pointer py-2 font-mono hover:bg-slate-200 rounded-3xl px-4   ${getBGColor(
+                className={`cursor-pointer my-6 py-2 font-mono hover:bg-blue-300/80 rounded-3xl px-4   ${getBGColor(
                   info,
                   id
                 )}`}
@@ -67,7 +67,7 @@ const Game = () => {
   const questionInfo = questions[currentQuestion]
 
   return (
-    <Card className='ring-2 ring-blue-500 ring-offset-1 ring-offset-blue-50 shadow-2xl shadow-blue-500/50'>
+    <Card className='ring-2 mx-auto ring-blue-500 ring-offset-1 ring-offset-blue-50 shadow-2xl shadow-blue-500/50'>
       <CardHeader className='flex flex-row justify-around items-center '>
         <Button
           className={` bg-blue-500 hover:bg-blue-600 text-white  hover:text-white ${

@@ -4,10 +4,18 @@ import { persist } from 'zustand/middleware'
 
 import { getAllQuestions } from '@/services/fetch-question'
 import { type Question } from '../types.d'
+interface Pregunta {
+  id: number
+  title: string
+  description: string
+  url: string
+}
 interface State {
   questions: Question[]
   currentQuestion: number
-  fetchQuestions: (limit: number) => Promise<void>
+  data: any
+  selectData: (data: Pregunta[]) => void
+  fetchQuestions: (limit: number, url: string) => Promise<void>
   selectAnswer: (questionId: number, answerId: number) => void
   nextQuestion: () => void
   prevQuestion: () => void
@@ -18,12 +26,19 @@ export const useQuestions = create<State>()(
   persist(
     (set, get) => {
       return {
+        data: '',
         questions: [],
         currentQuestion: 0,
-        fetchQuestions: async (limit: number) => {
-          const data = await getAllQuestions()
+        fetchQuestions: async (limit: number, url: string) => {
+          const data = await getAllQuestions(url)
           const questions = data.sort(() => Math.random() - 0.5).slice(0, limit)
           set({ questions })
+        },
+        selectData: (data: Pregunta[]) => {
+          const singlePregunta = data
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 1)
+          set({ data: singlePregunta[0] })
         },
         selectAnswer: (questionId: number, answerId: number) => {
           const { questions } = get()
@@ -59,7 +74,11 @@ export const useQuestions = create<State>()(
           }
         },
         reset: () => {
-          set({ currentQuestion: 0, questions: [] })
+          set({
+            currentQuestion: 0,
+            questions: [],
+            data: ''
+          })
         }
       }
     },

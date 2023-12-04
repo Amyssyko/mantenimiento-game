@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuáldsdadasdasdasdadasd cree que es el mejor medio de protección de una PC contra las variaciones de la energía eléctrica Cuando hay tormenta eléctrica?",
+    "answers": [
+      { "id": 1, "answer": "Alejarlo de la humedad", "correct": false },
+      {
+        "id": 2,
+        "answer": "No encenderlo mientras pasa la tormenta",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Tener un acondicionador de voltaje",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "answer": "Tener una conexión con pozo a tierra",
+        "correct": true
+      }
+    ],
+    "correctAnswer": 4
+  }
+]
