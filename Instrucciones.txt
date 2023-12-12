@@ -1,0 +1,54 @@
+Instrucciones:
+
+Instalación de Node.js:
+
+Descarga Node.js desde https://nodejs.org/.
+Ejecuta el instalador descargado y sigue las instrucciones para completar la instalación.
+o ejecutar el archivo install.cmd que hará la instalación de Node.js
+si no existe el script, copie el siguiente script en un archivo txt y renombre la extencion a "instalar_proyecto.cmd"
+Creación del script de instalación (instalar_proyecto.cmd):
+
+Crea un nuevo archivo de texto y copia el siguiente contenido:
+//
+
+@echo off
+
+setlocal
+
+REM Obtiene la ruta del directorio actual del proyecto
+set "proyecto_path=%cd%"
+
+REM Define la ruta del directorio "Documentos"
+set "documentos_path=%USERPROFILE%\Documents"
+
+REM Define la ruta del destino en "Documentos"
+set "destino_path=%documentos_path%\MiProyecto"
+
+REM Verifica si Node.js ya está instalado
+where node >nul 2>nul
+if %errorlevel% neq 0 (
+    echo Node.js ya está instalado.
+) else (
+    echo Instalando Node.js...
+    winget install -e OpenJS.NodeJS
+
+    echo Esperando a que termine la instalación de Node.js...
+    timeout /t 5 /nobreak
+)
+
+echo Copiando archivos del proyecto a %destino_path%...
+xcopy /s /y "%proyecto_path%\*" "%destino_path%\"
+
+echo Navegando al directorio de destino...
+cd "%destino_path%\"
+
+echo Proceso completado.
+@pause
+endlocal
+
+//
+
+Para iniciar el juego, en la carpeta documentos, se creará una carpeta llamada Mi Projecto, simplemente ejecute el archivo llamado "start"
+
+Nota: Para iniciar el servidor de desarrollo en futuras sesiones, simplemente ejecuta el script start.
+Estas instrucciones proporcionan un enfoque paso a paso para instalar Node.js, configurar el proyecto y crear un script de inicio. Después de seguir estos pasos, podrás iniciar fácilmente el servidor de desarrollo cada vez que quieras jugar el juego ejecutando el archivo start.bat.

@@ -3,21 +3,18 @@
     "id": 1,
     "question": "¿Cuál cree que es el mejor medio de protección de una PC contra las variaciones de la energía eléctrica Cuando hay tormenta eléctrica?",
     "answers": [
-      { "id": 1, "answer": "Alejarlo de la humedad", "correct": false },
+      { "id": 1, "answer": "Alejarlo de la humedad" },
       {
         "id": 2,
-        "answer": "No encenderlo mientras pasa la tormenta",
-        "correct": false
+        "answer": "No encenderlo mientras pasa la tormenta"
       },
       {
         "id": 3,
-        "answer": "Tener un acondicionador de voltaje",
-        "correct": false
+        "answer": "Tener un acondicionador de voltaje"
       },
       {
         "id": 4,
-        "answer": "Tener una conexión con pozo a tierra",
-        "correct": true
+        "answer": "Tener una conexión con pozo a tierra"
       }
     ],
     "correctAnswer": 4
@@ -27,10 +24,10 @@
     "id": 2,
     "question": "¿Cuál es la principal causa por la cual una PC se congela al arrancar?",
     "answers": [
-      { "id": 1, "answer": "Fallas en el sistema operativo", "correct": false },
-      { "id": 2, "answer": "Fallas en el disco duro", "correct": false },
-      { "id": 3, "answer": "La memoria RAM", "correct": true },
-      { "id": 4, "answer": "Mala conexión a Internet", "correct": false }
+      { "id": 1, "answer": "Fallas en el sistema operativo" },
+      { "id": 2, "answer": "Fallas en el disco duro" },
+      { "id": 3, "answer": "La memoria RAM" },
+      { "id": 4, "answer": "Mala conexión a Internet" }
     ],
     "correctAnswer": 3
   },
@@ -38,21 +35,18 @@
     "id": 3,
     "question": "¿Cuál cree que es la señal principal de que un disco duro se está deteriorando?",
     "answers": [
-      { "id": 1, "answer": "Windows se bloquea seguido", "correct": false },
+      { "id": 1, "answer": "Windows se bloquea seguido" },
       {
         "id": 2,
-        "answer": "La conexión a Internet se cae continuamente",
-        "correct": false
+        "answer": "La conexión a Internet se cae continuamente"
       },
       {
         "id": 3,
-        "answer": "Hace un ruido de tap tap y se demora en arrancar",
-        "correct": true
+        "answer": "Hace un ruido de tap tap y se demora en arrancar"
       },
       {
         "id": 4,
-        "answer": "El PC no arranca y la BIOS advierte que no existe un disco duro",
-        "correct": false
+        "answer": "El PC no arranca y la BIOS advierte que no existe un disco duro"
       }
     ],
     "correctAnswer": 3
@@ -63,23 +57,19 @@
     "answers": [
       {
         "id": 1,
-        "answer": "Instalar programas de última versión",
-        "correct": false
+        "answer": "Instalar programas de última versión"
       },
       {
         "id": 2,
-        "answer": "Cambiar la unidad óptica y el disco duro por dispositivos de más capacidad",
-        "correct": false
+        "answer": "Cambiar la unidad óptica y el disco duro por dispositivos de más capacidad"
       },
       {
         "id": 3,
-        "answer": "Cambiar el microprocesador, la RAM y el disco duro por uno de más capacidad",
-        "correct": true
+        "answer": "Cambiar el microprocesador, la RAM y el disco duro por uno de más capacidad"
       },
       {
         "id": 4,
-        "answer": "Cambiar la fuente de poder la Board y el Procesador",
-        "correct": false
+        "answer": "Cambiar la fuente de poder la Board y el Procesador"
       }
     ],
     "correctAnswer": 3
@@ -90,23 +80,19 @@
     "answers": [
       {
         "id": 1,
-        "answer": "PC de marca porque duran más a pesar de su elevado costo",
-        "correct": false
+        "answer": "PC de marca porque duran más a pesar de su elevado costo"
       },
       {
         "id": 2,
-        "answer": "Clones porque pueden repararse fácilmente y son más económicos",
-        "correct": false
+        "answer": "Clones porque pueden repararse fácilmente y son más económicos"
       },
       {
         "id": 3,
-        "answer": "Da lo mismo, lo importante es que tengan un buen soporte técnico y el cuidado que se tenga",
-        "correct": true
+        "answer": "Da lo mismo, lo importante es que tengan un buen soporte técnico y el cuidado que se tenga"
       },
       {
         "id": 4,
-        "answer": "Portátiles ya que duran más y son económicos",
-        "correct": false
+        "answer": "Portátiles ya que duran más y son económicos"
       }
     ],
     "correctAnswer": 3
@@ -115,17 +101,15 @@
     "id": 6,
     "question": "Saber cuidar una PC significa principalmente:",
     "answers": [
-      { "id": 1, "answer": "Apagar adecuadamente el PC", "correct": false },
+      { "id": 1, "answer": "Apagar adecuadamente el PC" },
       {
         "id": 2,
-        "answer": "Hacerle el mantenimiento preventivo",
-        "correct": true
+        "answer": "Hacerle el mantenimiento preventivo"
       },
-      { "id": 3, "answer": "Limpiarla todos los días", "correct": false },
+      { "id": 3, "answer": "Limpiarla todos los días" },
       {
         "id": 4,
-        "answer": "Evitar que intrusos ingresen sin permiso al sistema",
-        "correct": false
+        "answer": "Evitar que intrusos ingresen sin permiso al sistema"
       }
     ],
     "correctAnswer": 2
@@ -136,16 +120,14 @@
     "answers": [
       {
         "id": 1,
-        "answer": "PC con una tarjeta de video de baja resolución",
-        "correct": true
+        "answer": "PC con una tarjeta de video de baja resolución"
       },
       {
         "id": 2,
-        "answer": "Mala Configuración de la conexión de red",
-        "correct": false
+        "answer": "Mala Configuración de la conexión de red"
       },
-      { "id": 3, "answer": "PC infectado por un virus", "correct": false },
-      { "id": 4, "answer": "Conexión a internet muy lenta", "correct": false }
+      { "id": 3, "answer": "PC infectado por un virus" },
+      { "id": 4, "answer": "Conexión a internet muy lenta" }
     ],
     "correctAnswer": 1
   },
@@ -153,17 +135,15 @@
     "id": 8,
     "question": "La mejor alternativa cuando un programa empieza a fallar es:",
     "answers": [
-      { "id": 1, "answer": "Cambiar el disco duro", "correct": false },
-      { "id": 2, "answer": "Llamar a un técnico", "correct": false },
+      { "id": 1, "answer": "Cambiar el disco duro" },
+      { "id": 2, "answer": "Llamar a un técnico" },
       {
         "id": 3,
-        "answer": "Desinstalarlo y volverlo a instalar",
-        "correct": true
+        "answer": "Desinstalarlo y volverlo a instalar"
       },
       {
         "id": 4,
-        "answer": "Cambiarlo por la versión más reciente",
-        "correct": false
+        "answer": "Cambiarlo por la versión más reciente"
       }
     ],
     "correctAnswer": 3
@@ -172,21 +152,18 @@
     "id": 9,
     "question": "Cuando se busca una mejor versión de un driver se debe tener en cuenta:",
     "answers": [
-      { "id": 1, "answer": "El consejo de los amigos", "correct": false },
+      { "id": 1, "answer": "El consejo de los amigos" },
       {
         "id": 2,
-        "answer": "Las instrucciones del fabricante",
-        "correct": false
+        "answer": "Las instrucciones del fabricante"
       },
       {
         "id": 3,
-        "answer": "Descargarlo a través de Internet",
-        "correct": true
+        "answer": "Descargarlo a través de Internet"
       },
       {
         "id": 4,
-        "answer": "Hacer Backup para formatear el disco duro por si algo sale mal",
-        "correct": false
+        "answer": "Hacer Backup para formatear el disco duro por si algo sale mal"
       }
     ],
     "correctAnswer": 3
@@ -197,23 +174,19 @@
     "answers": [
       {
         "id": 1,
-        "answer": "Utilice un antivirus pago, solo así se protegerá",
-        "correct": false
+        "answer": "Utilice un antivirus pago, solo así se protegerá"
       },
       {
         "id": 2,
-        "answer": "Instale un antivirus y actualícelo regularmente",
-        "correct": true
+        "answer": "Instale un antivirus y actualícelo regularmente"
       },
       {
         "id": 3,
-        "answer": "Reinicie el PC cuando aparezca el mensaje virus detectado",
-        "correct": false
+        "answer": "Reinicie el PC cuando aparezca el mensaje virus detectado"
       },
       {
         "id": 4,
-        "answer": "Nunca descargue fotos, canciones y juegos en la Red",
-        "correct": false
+        "answer": "Nunca descargue fotos, canciones y juegos en la Red"
       }
     ],
     "correctAnswer": 2
@@ -222,10 +195,10 @@
     "id": 11,
     "question": "Un aparato, artificio, mecanismo, artefacto, órgano o elemento de un sistema, corresponde a:",
     "answers": [
-      { "id": 1, "answer": "Software", "correct": false },
-      { "id": 2, "answer": "Hardware", "correct": true },
-      { "id": 3, "answer": "Malware", "correct": false },
-      { "id": 4, "answer": "Firmware", "correct": false }
+      { "id": 1, "answer": "Software" },
+      { "id": 2, "answer": "Hardware" },
+      { "id": 3, "answer": "Malware" },
+      { "id": 4, "answer": "Firmware" }
     ],
     "correctAnswer": 2
   },
@@ -233,14 +206,13 @@
     "id": 12,
     "question": "Son componentes internos de un computador",
     "answers": [
-      { "id": 1, "answer": "RAM, procesador y Board", "correct": true },
+      { "id": 1, "answer": "RAM, procesador y Board" },
       {
         "id": 2,
-        "answer": "TrackBall, Puente Norte y Puente Sur",
-        "correct": false
+        "answer": "TrackBall, Puente Norte y Puente Sur"
       },
-      { "id": 3, "answer": "PCI, DDR y CPU", "correct": false },
-      { "id": 4, "answer": "Display, BIOS y chipset", "correct": false }
+      { "id": 3, "answer": "PCI, DDR y CPU" },
+      { "id": 4, "answer": "Display, BIOS y chipset" }
     ],
     "correctAnswer": 1
   },
@@ -248,14 +220,13 @@
     "id": 13,
     "question": "El chip mas importante de cualquier tarjeta madre es:",
     "answers": [
-      { "id": 1, "answer": "Chipset", "correct": false },
+      { "id": 1, "answer": "Chipset" },
       {
         "id": 2,
-        "answer": "Jumper",
-        "correct": false
+        "answer": "Jumper"
       },
-      { "id": 3, "answer": "Procesador", "correct": true },
-      { "id": 4, "answer": "South Bridge", "correct": false }
+      { "id": 3, "answer": "Procesador" },
+      { "id": 4, "answer": "South Bridge" }
     ],
     "correctAnswer": 3
   },
@@ -263,14 +234,19 @@
     "id": 14,
     "question": "La causa mas probable por la que el computador se apaga frecuentemente en ciclos de tiempo aleartorio es:",
     "answers": [
-      { "id": 1, "answer": "Mal funcionamiento de la fuente de poder", "correct": true },
+      {
+        "id": 1,
+        "answer": "Mal funcionamiento de la fuente de poder"
+      },
       {
         "id": 2,
-        "answer": "Suciedad en la tarjeta de video",
-        "correct": false
+        "answer": "Suciedad en la tarjeta de video"
       },
-      { "id": 3, "answer": "Recalantamiento del Procesador", "correct": false },
-      { "id": 4, "answer": "Mal funcionamiento de Firewall o el Antivirus", "correct": false }
+      { "id": 3, "answer": "Recalantamiento del Procesador" },
+      {
+        "id": 4,
+        "answer": "Mal funcionamiento de Firewall o el Antivirus"
+      }
     ],
     "correctAnswer": 1
   },
@@ -278,54 +254,55 @@
     "id": 15,
     "question": "¿Cuál de las siguientes opciones es una herramienta de trabajo que nos ayuda para darle mantenimiento a una computadora?",
     "answers": [
-      { "id": 1, "answer": "Martillo", "correct": false },
+      { "id": 1, "answer": "Martillo" },
       {
         "id": 2,
-        "answer": "Taladro",
-        "correct": false
+        "answer": "Taladro"
       },
-      { "id": 3, "answer": "Plazas de punta fina", "correct": true },
-      { "id": 4, "answer": "Tenedor", "correct": false }
+      { "id": 3, "answer": "Plazas de punta fina" },
+      { "id": 4, "answer": "Tenedor" }
     ],
     "correctAnswer": 3
-  }, 
+  },
   {
     "id": 16,
     "question": "Es un tipo de memoria RAM",
     "answers": [
-      { "id": 1, "answer": "DDRAM", "correct": false },
+      { "id": 1, "answer": "DDRAM" },
       {
         "id": 2,
-        "answer": "GIGARAM",
-        "correct": false
+        "answer": "GIGARAM"
       },
-      { "id": 3, "answer": "EPRAM", "correct": false },
-      { "id": 4, "answer": "SDRAM", "correct": true }
+      { "id": 3, "answer": "EPRAM" },
+      { "id": 4, "answer": "SDRAM" }
     ],
     "correctAnswer": 4
-  }, 
+  },
   {
     "id": 17,
     "question": "¿Cuáles son los tipos de mantenimientos que existen para un PC?",
     "answers": [
-      { "id": 1, "answer": "Formativo y predictivo", "correct": false },
+      { "id": 1, "answer": "Formativo y predictivo" },
       {
         "id": 2,
-        "answer": "Preventivo y correctivo", "correct": true},
-      { "id": 3, "answer": "Predictivo y correctivo", "correct": false },
-      { "id": 4, "answer": "De hadware y software", "correct": false }
+        "answer": "Preventivo y correctivo"
+      },
+      { "id": 3, "answer": "Predictivo y correctivo" },
+      { "id": 4, "answer": "De hadware y software" }
     ],
     "correctAnswer": 2
-  }, 
+  },
   {
     "id": 18,
     "question": "Previene algún mal funcionamiento del hardware y software",
     "answers": [
-      { "id": 1, "answer": "Everest", "correct": false },
+      { "id": 1, "answer": "Everest" },
       {
-        "id": 2, "answer": "Ccleaner", "correct": false },
-      { "id": 3, "answer": "Mantenimiento preventivo", "correct": true },
-      { "id": 4, "answer": "TuneUp utilities", "correct": false }
+        "id": 2,
+        "answer": "Ccleaner"
+      },
+      { "id": 3, "answer": "Mantenimiento preventivo" },
+      { "id": 4, "answer": "TuneUp utilities" }
     ],
     "correctAnswer": 3
   },
@@ -333,11 +310,19 @@
     "id": 19,
     "question": "Consideración importante que se debe hacer antes y después del mantenimiento",
     "answers": [
-      { "id": 1, "answer": "Vereficar que el equipo tenga garantia", "correct": true },
       {
-        "id": 2, "answer": "Verificar si el computador es del dueño", "correct": false },
-      { "id": 3, "answer": "Verificar la configuración básica del Setup", "correct": false},
-      { "id": 4, "answer": "Revisar la IP del PC", "correct": false }
+        "id": 1,
+        "answer": "Vereficar que el equipo tenga garantia"
+      },
+      {
+        "id": 2,
+        "answer": "Verificar si el computador es del dueño"
+      },
+      {
+        "id": 3,
+        "answer": "Verificar la configuración básica del Setup"
+      },
+      { "id": 4, "answer": "Revisar la IP del PC" }
     ],
     "correctAnswer": 1
   },
@@ -345,13 +330,23 @@
     "id": 20,
     "question": "Permite conocer las características del equipo:",
     "answers": [
-      { "id": 1, "answer": "Inicio, panel de control, agregar hardware", "correct": false },
       {
-        "id": 2, "answer": "Inicio, ayuda y soporte técnico, información de mi pc", "correct": false },
-      { "id": 3, "answer": "Clic derecho sobre mi pc, propiedades, hardware", "correct": true },
-      { "id": 4, "answer": "Inicio, panel de control, cuentas de usuarios", "correct": false }
+        "id": 1,
+        "answer": "Inicio, panel de control, agregar hardware"
+      },
+      {
+        "id": 2,
+        "answer": "Inicio, ayuda y soporte técnico, información de mi pc"
+      },
+      {
+        "id": 3,
+        "answer": "Clic derecho sobre mi pc, propiedades, hardware"
+      },
+      {
+        "id": 4,
+        "answer": "Inicio, panel de control, cuentas de usuarios"
+      }
     ],
     "correctAnswer": 3
   }
-  
 ]

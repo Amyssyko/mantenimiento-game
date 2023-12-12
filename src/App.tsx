@@ -9,15 +9,18 @@ function App() {
   return (
     <section className='flex flex-col justify-center items-center py-4 w-full min-h-screen max-h-full px-[10px] sm:px-[100px] md:px-[200px]'>
       <article className='pb-12'>
-        <h1 className=' flex tracking-tight justify-center items-center text-sky-800 font-semibold md:text-3xl text-center'>
-          <Laptop2 className='h-14 w-14 md:w-8 md:h-8 mr-2 animate-pulse ' />
-          Juego de Preguntas Mantenimiento de Computadora
-        </h1>
-        <p className='text-2xl leading-7 [&:not(:first-child)]:mt-6 pt-2'>
-          Todas las preguntas sobre el mantenimiento de la computadora y laptop,
-          podras evaluar tus conocimientos sobre el tema. Ademas de poder
-          aprender mas sobre el mantenimiento de la computadora y laptop.
-        </p>
+        <header>
+          <h1 className=' flex tracking-tight justify-center items-center text-sky-800 font-semibold md:text-3xl text-center'>
+            <Laptop2 className='h-14 w-14 md:w-8 md:h-8 mr-2 animate-pulse ' />
+            Juego de Preguntas Mantenimiento de Computadora
+          </h1>
+          <p className='text-2xl leading-7 [&:not(:first-child)]:mt-6 pt-2'>
+            Todas las preguntas sobre el mantenimiento de la computadora y
+            laptop, podras evaluar tus conocimientos sobre el tema. Ademas de
+            poder aprender mas sobre el mantenimiento de la computadora y
+            laptop.
+          </p>
+        </header>
       </article>
       <article className='w-full h-full flex justify-center items-center'>
         {questions.length === 0 && <Start />}
