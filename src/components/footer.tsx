@@ -1,4 +1,3 @@
-import { useQuestionData } from '@/hooks/useQuestionData'
 import { useSEO } from '@/hooks/useSEO'
 import { useQuestions } from '@/store/questions'
 import { CheckCircle, CircleDashed, RotateCcw, XCircle } from 'lucide-react'
@@ -7,48 +6,51 @@ import { CardFooter } from './ui/card'
 import { Progress } from './ui/progress'
 
 const Footer = () => {
-  const { correct, incorrect, unanswered } = useQuestionData()
-  const handleReset = useQuestions(state => state.reset)
+	const correct = useQuestions((state) => state.correctCount)
+	const incorrect = useQuestions((state) => state.incorrectCount)
+	const unanswered = useQuestions((state) => state.unansweredCount)
+	const handleReset = useQuestions((state) => state.reset)
 
-  useSEO({
-    title: `${
-      unanswered === 0 ? '' : correct
-    } Correctas | ${incorrect} Incorrectas | ${unanswered} Sin Responder`,
-    description: 'Agregar y eliminar elementos en la lista.'
-  })
+	useSEO({
+		title: `${
+			unanswered === 0 ? '' : correct
+		} Correctas | ${incorrect} Incorrectas | ${unanswered} Sin Responder`,
+		description: 'Agregar y eliminar elementos en la lista.'
+	})
 
-  return (
-    <CardFooter className='flex flex-col justify-center items-center'>
-      <Progress
-        className='bg-orange-50 border border-slate-300 placeholder-green-500 my-2'
-        value={Number(correct + incorrect) * 10}
-      />
+	return (
+		<CardFooter className='flex flex-col justify-center items-center'>
+			<Progress
+				aria-label='progress'
+				className='bg-muted my-2 border border-border'
+				value={Number(correct + incorrect) * 10}
+			/>
 
-      <p className='md:flex gap-4 py-8  '>
-        <span className='flex items-center  gap-x-2'>
-          <CheckCircle className='text-green-500 w-4 h-4' />
-          {correct} correctas
-        </span>
-        <span className='flex items-center  gap-x-2'>
-          <XCircle className='text-red-500 w-4 h-4' /> {incorrect} incorrectas
-        </span>
-        <span className='flex items-center gap-x-2 '>
-          <CircleDashed className='text-gray-500 animate-spin duration-1000 w-4 h-4' />{' '}
-          {unanswered} Sin Responder
-        </span>
-      </p>
+			<p className='flex sm:flex-row flex-col items-start sm:items-center gap-2 sm:gap-4 py-6 md:py-8 text-foreground text-sm sm:text-base'>
+				<span className='flex items-center gap-x-2'>
+					<CheckCircle className='w-4 h-4 text-primary' />
+					{correct} correctas
+				</span>
+				<span className='flex items-center gap-x-2'>
+					<XCircle className='w-4 h-4 text-destructive' /> {incorrect}{' '}
+					incorrectas
+				</span>
+				<span className='flex items-center gap-x-2'>
+					<CircleDashed className='w-4 h-4 text-muted-foreground animate-spin duration-1000' />{' '}
+					{unanswered} Sin Responder
+				</span>
+			</p>
 
-      <Button
-        onClick={() => {
-          window.location.reload()
-          return handleReset()
-        }}
-        variant='destructive'
-      >
-        <RotateCcw className='h-4 w-4' /> Reiniciar
-      </Button>
-    </CardFooter>
-  )
+			<Button
+				className='bg-primary/70 hover:bg-primary/80 border-primary text-primary-foreground'
+				onClick={() => {
+					handleReset()
+				}}
+				variant='destructive'>
+				<RotateCcw className='w-4 h-4' /> Reiniciar
+			</Button>
+		</CardFooter>
+	)
 }
 
 export default Footer
